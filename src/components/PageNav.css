@@ -1,0 +1,19 @@
+.menu-bar {
+  display: flex;
+  list-style: none;
+  background-color: black;
+  padding: 10px 40px;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.active {
+  color: #ffc107;
+}
+li {
+  margin-right: 15%;
+}
