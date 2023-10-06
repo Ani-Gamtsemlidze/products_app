@@ -5,7 +5,7 @@ function Logo() {
     <Link to="/">
       <img
         style={{ width: "50px", height: "50px", objectFit: "contain" }}
-        src="./logo.png"
+        src="logo.png"
       />
     </Link>
   );

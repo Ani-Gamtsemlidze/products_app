@@ -15,12 +15,14 @@ function Header() {
             position: "absolute",
             left: "15px",
           }}
-          src="./search.png"
+          src="search.png"
         />
         <input
+          className="search"
           style={{
             borderRadius: "20px",
-            padding: "12px 45px",
+            padding: "10px 40px",
+            width: "250px",
             border: "none",
             outline: "none",
             backgroundColor: "#f7f7f7",

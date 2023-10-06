@@ -7,9 +7,10 @@ function Slider() {
     <img
       style={{
         width: "100%",
-        height: "500px",
-        objectFit: "cover",
-        objectPosition: "top",
+        height: "550px",
+        objectFit: "contain",
+        objectPosition: "center",
+        backgroundColor: "#ffd17e",
       }}
       src="image1.jpg"
       onDragStart={handleDragStart}
@@ -18,9 +19,10 @@ function Slider() {
     <img
       style={{
         width: "100%",
-        height: "500px",
-        objectFit: "cover",
-        objectPosition: "top",
+        height: "550px",
+        objectFit: "contain",
+        objectPosition: "center",
+        backgroundColor: "#b9b9b9",
       }}
       src="image2.jpg"
       onDragStart={handleDragStart}
@@ -29,9 +31,10 @@ function Slider() {
     <img
       style={{
         width: "100%",
-        height: "500px",
-        objectFit: "cover",
-        objectPosition: "top",
+        height: "550px",
+        objectFit: "contain",
+        objectPosition: "center",
+        backgroundColor: "rgb(207 238 238)",
       }}
       src="image3.jpg"
       onDragStart={handleDragStart}
